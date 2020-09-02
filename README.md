@@ -4,7 +4,7 @@ Reproducer
 This reproducer shows the following:
 
 1. There is a `Context` annotation in `legacy-annotations`
-2. There is a visitor in `di-processors` that `@ContextBindable` on parameters
+2. There is a visitor in `di-processors` that adds `@ContextBindable` on parameters
     for each parameter and method annotated with `@Context`
 3. There is a small executable method processor in `reproducer` module in
     `impl` package that prepares the executable method 
